@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: [main-cicd]
+    runs-on: main-cicd
     steps:
     - name: Check out repository
       uses: actions/checkout@v2
